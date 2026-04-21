@@ -21,7 +21,7 @@ export default function Header() {
             <div className="bg-white p-6 md:p-8 rounded-3xl shadow-xl relative z-10">
 
               <img
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6vgmlm8ByvIdIdSJ8GOp9L6f6WwuggjLf8fHyEOipCFzD3bf7QvCOsoJaWQu73Y9RI21D6wUGVkLF7X4iF_-HdlrZk_z8bimvSzll9uh0DkPyQAxXBk_TPvWYHC6ZCwPo0a5ahZbMP5KHkcdjBu4ixKgaYAMHbJ0ZlMqv9JsVgnkH7cgFriY7HxgaXZpPdHYgEzDFXfMfhYvTJT_XaZA2fFrJIDhawHGMzZXOW8b8LmQJzwK1H3z7OXCriSszu6q6hjAC4EPq1Uc"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDi69Grc9exRHWMlSbc9gAhFx2KlNecCLQ0SYquVt0H121GA64-YMvHW9AVOSn7QfYF7H7j2XSAUbgnI0oc3rVNM5zR7-hI_iuflHiyaKyq1ILeYtfvhVBOYcnC4he919BOZMe-NlqrEuuHPghfM3TVfcz6Pm8a9UoIXxd4oc_fuZ6grC-Gghlo310V5rZzlG-tQTgVIkB4DEx-3o6PDtyUkGbbU0xpKyftt6AxR0pAji0Y-OdHaEPm5We-O2061hAWA5U_m5nYiCk"
                 alt="3D Floor Plan"
                 className="w-full h-auto rounded-xl shadow-md grayscale hover:grayscale-0 transition-all duration-500"
               />
