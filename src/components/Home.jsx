@@ -2,9 +2,15 @@ import React from 'react'
 
 function Home() {
   return (
-    <div>
-      
-    </div>
+     <>
+      <Hero />
+      <Card />
+      <Header />
+      <Pernts />
+      <Footer />
+  <About/>
+    </>
+  
   )
 }
 

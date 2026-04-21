@@ -1,8 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
 
-export default function Card() {
+export default function Projects() {
   return (
     <section className="py-24 px-6 md:px-12 bg-surface">
       <div className="max-w-7xl mx-auto">
@@ -18,12 +17,7 @@ export default function Card() {
             </h2>
           </div>
 
-          <Link to="/Projects" className=" hidden md:flex items-center gap-2 text-primary font-bold " href="#">
-            عرض الكل
-            <span className="material-symbols-outlined transition-transform group-hover:-translate-x-2">
-              arrow_back
-            </span>
-          </Link>
+    
         </div>
 
         {/* Grid */}
@@ -155,4 +149,54 @@ const cards = [
     area: "520 م²",
     img: "https://lh3.googleusercontent.com/aida-public/AB6AXuCZkUA6EwtXWLFS5pzz_ty3omacOoixDhMmxt7wuba-SZ6W-ZEVTzOR4CjmBfbObrc2Pgm09SOMT3idvAZFdgY4ILTgDv3gDH63QS7qPmSrpOrkvwRlwdDShCXsXnQ5KSZWMyHtt5Z-2U9kCZeRaN4gU3PRHeb2aC82BNewnuUW4OPJqpCQifyrmmuslwridCO9nwqEhqzy7hzOebfyQy88gFcypyKVrGcRuaSDnSKHT3jbLjA9GkMkJGXr5hNKb5Pbvs_3yxl_0oo",
   },
+  {
+    title: "فيلا الصقور الملكية - حطين",
+    price: "3,450,000 ر.س",
+    beds: "5 غرف",
+    baths: "4 حمام",
+    area: "450 م²",
+    img: "https://lh3.googleusercontent.com/aida-public/AB6AXuA6vgmlm8ByvIdIdSJ8GOp9L6f6WwuggjLf8fHyEOipCFzD3bf7QvCOsoJaWQu73Y9RI21D6wUGVkLF7X4iF_-HdlrZk_z8bimvSzll9uh0DkPyQAxXBk_TPvWYHC6ZCwPo0a5ahZbMP5KHkcdjBu4ixKgaYAMHbJ0ZlMqv9JsVgnkH7cgFriY7HxgaXZpPdHYgEzDFXfMfhYvTJT_XaZA2fFrJIDhawHGMzZXOW8b8LmQJzwK1H3z7OXCriSszu6q6hjAC4EPq1Uc",
+  },
+  {
+    title: "فيلا الأندلسية - الصحافة",
+    price: "4,100,000 ر.س",
+    beds: "6 غرف",
+    baths: "5 حمام",
+    area: "520 م²",
+    img: "https://lh3.googleusercontent.com/aida-public/AB6AXuCZkUA6EwtXWLFS5pzz_ty3omacOoixDhMmxt7wuba-SZ6W-ZEVTzOR4CjmBfbObrc2Pgm09SOMT3idvAZFdgY4ILTgDv3gDH63QS7qPmSrpOrkvwRlwdDShCXsXnQ5KSZWMyHtt5Z-2U9kCZeRaN4gU3PRHeb2aC82BNewnuUW4OPJqpCQifyrmmuslwridCO9nwqEhqzy7hzOebfyQy88gFcypyKVrGcRuaSDnSKHT3jbLjA9GkMkJGXr5hNKb5Pbvs_3yxl_0oo",
+  },
+  {
+    title: "شقق ريزيدنس - النرجس",
+    price: "1,200,000 ر.س",
+    beds: "3 غرف",
+    baths: "2 حمام",
+    area: "180 م²",
+    img: "https://lh3.googleusercontent.com/aida-public/AB6AXuAfgja7-fihHlwi9H9nmpYwMHdy6aEDGQo__qA5gJUXkIiJ8E1v4PlwagSTQoaVI2xLtFNPOHxooVgRHLXJIAPWdoYn_mVA2vbv_4jBSjf_2e8i_d9WSPC4qGw7GmWeqGq4s2m96dLvFCnK4EX5E-EPCxv2Ijr2qZzxuybd5iL4jXXd77tMPsL7ssoSEtn_L2EJkfLFQ3Vp3SymhdyjfHk_XTzF--_Zb2m8eBcKeLSfbc3iO9105DJCGLDjhgKcidfSeXiZucuMuPg",
+  },
+
+ {
+    title: "فيلا الصقور الملكية - حطين",
+    price: "3,450,000 ر.س",
+    beds: "5 غرف",
+    baths: "4 حمام",
+    area: "450 م²",
+    img: "https://lh3.googleusercontent.com/aida-public/AB6AXuA6vgmlm8ByvIdIdSJ8GOp9L6f6WwuggjLf8fHyEOipCFzD3bf7QvCOsoJaWQu73Y9RI21D6wUGVkLF7X4iF_-HdlrZk_z8bimvSzll9uh0DkPyQAxXBk_TPvWYHC6ZCwPo0a5ahZbMP5KHkcdjBu4ixKgaYAMHbJ0ZlMqv9JsVgnkH7cgFriY7HxgaXZpPdHYgEzDFXfMfhYvTJT_XaZA2fFrJIDhawHGMzZXOW8b8LmQJzwK1H3z7OXCriSszu6q6hjAC4EPq1Uc",
+  },
+  {
+    title: "شقق ريزيدنس - النرجس",
+    price: "1,200,000 ر.س",
+    beds: "3 غرف",
+    baths: "2 حمام",
+    area: "180 م²",
+    img: "https://lh3.googleusercontent.com/aida-public/AB6AXuAfgja7-fihHlwi9H9nmpYwMHdy6aEDGQo__qA5gJUXkIiJ8E1v4PlwagSTQoaVI2xLtFNPOHxooVgRHLXJIAPWdoYn_mVA2vbv_4jBSjf_2e8i_d9WSPC4qGw7GmWeqGq4s2m96dLvFCnK4EX5E-EPCxv2Ijr2qZzxuybd5iL4jXXd77tMPsL7ssoSEtn_L2EJkfLFQ3Vp3SymhdyjfHk_XTzF--_Zb2m8eBcKeLSfbc3iO9105DJCGLDjhgKcidfSeXiZucuMuPg",
+  },
+  {
+    title: "قصر واحة النخيل - الملقا",
+    price: "7,800,000 ر.س",
+    beds: "7 غرف",
+    baths: "6 حمام",
+    area: "1200 م²",
+    img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDi69Grc9exRHWMlSbc9gAhFx2KlNecCLQ0SYquVt0H121GA64-YMvHW9AVOSn7QfYF7H7j2XSAUbgnI0oc3rVNM5zR7-hI_iuflHiyaKyq1ILeYtfvhVBOYcnC4he919BOZMe-NlqrEuuHPghfM3TVfcz6Pm8a9UoIXxd4oc_fuZ6grC-Gghlo310V5rZzlG-tQTgVIkB4DEx-3o6PDtyUkGbbU0xpKyftt6AxR0pAji0Y-OdHaEPm5We-O2061hAWA5U_m5nYiCk",
+  },
+
 ];

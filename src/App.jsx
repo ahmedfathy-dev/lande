@@ -1,27 +1,44 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+import { Routes, Route } from "react-router-dom"
+
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Card from './components/Card'
 import Header from './components/Header'
 import Pernts from './components/Pernts'
 import Footer from './components/Footer'
+import About from './pages/About'
+import Services from './pages/Services'
+import Projects from './pages/Projects'
+import Contact from './pages/Contact'
 
-function App() {
-  const [count, setCount] = useState(0)
-
+function Home() {
   return (
     <>
+      <Hero />
+      <Card />
+      <Header />
+      <Pernts />
+      <Footer />
+    </>
+  )
+}
 
-     <Navbar/>
-     <Hero/>
-     <Card/>
-      <Header/>
-      <Pernts/>
-      <Footer/>
+
+
+
+
+function App() {
+  return (
+    <>
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </>
   )
 }

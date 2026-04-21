@@ -76,9 +76,12 @@ export default function Hero() {
       </div>
 
       {/* WhatsApp */}
+
+      
       <div className="fixed left-3 md:left-10 bottom-4 md:bottom-30 z-50 group">
 
         <div className="bg-green-500 w-11 h-11 md:w-14 md:h-14 rounded-xl flex items-center justify-center shadow-lg cursor-pointer">
+
           <FaWhatsapp size={24} className="text-white" />
         </div>
 
