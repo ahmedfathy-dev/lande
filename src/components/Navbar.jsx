@@ -48,7 +48,7 @@ export default function Navbar() {
 <button
   onClick={() => {
     const message = encodeURIComponent("السلام عليكم عايز استفسر عن خدمة");
-    window.open(`https://wa.me/201018874121?text=${message}`, "_blank");
+    window.open(`https://wa.me/201068389295?text=${message}`, "_blank");
   }}
   className="bg-[#1f3b73] text-white px-4 md:px-6 py-2 rounded-lg"
 >

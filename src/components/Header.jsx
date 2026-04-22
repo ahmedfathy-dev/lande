@@ -17,7 +17,7 @@ export default function Header() {
             <div className="bg-white p-6 md:p-8 rounded-3xl shadow-xl relative z-10">
 
               <img
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgac88JP2OI99sJiNX2JziEUxho-QUL-HVE56BHGxm8rRH3o8LjxlnOsPXYm1jnZesXOVg5jAqw2KNJw3ZQyBOOhK7xgLCJnMqsb6vJ9Q7t02Lyy0056pOY7acNd7wi4BIJoN6Dqr79-Sl0OpoZSed3RPbljZF7hjz_eBl2yQ1RW0ToYSvBXtn5KW0LiifmK7p4Uh1Hmt8Db2f8UPsH6gUYHd_F-Nxa5K69NAk6OrQ687tlRcTDpLnSaruwbcC4UnMmLmBAkJfYZA"
+                src="bg.png"
                 alt="3D Floor Plan"
                 className="w-full h-auto rounded-xl shadow-md grayscale hover:grayscale-0 transition-all duration-500"
               />
@@ -36,7 +36,7 @@ export default function Header() {
                     className="w-14 h-7 bg-white/20 rounded-full relative cursor-pointer transition-all duration-300 "
                   >
                     <div
-                      className={`absolute top-1 w-5 h-5 bg-white rounded-full shadow-md transition-all duration-300 **: ${
+                      className={`absolute top-1 w-5 h-5 bg-white rounded-full shadow-md transition-all duration-300 ${
                         dark ? "left-1" : "right-1"
                       }`}
                     ></div>
@@ -47,7 +47,11 @@ export default function Header() {
                   </span>
                 </div>
 
-                <p className="text-[11px] md:text-xs opacity-80 text-right text-gray-300">
+                <p
+                  className={`text-[11px] md:text-xs opacity-80 text-right ${
+                    dark ? "text-gray-300" : "text-gray-500"
+                  }`}
+                >
                   معاينة الوضع الليلي
                 </p>
               </div>
@@ -58,11 +62,19 @@ export default function Header() {
 
           {/* Text Section */}
           <div className="order-1 lg:order-2 text-right">
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-blue-900 mb-4 md:mb-6">
+            <h2
+              className={`text-2xl md:text-3xl lg:text-4xl font-bold mb-4 md:mb-6 ${
+                dark ? "text-white" : "text-blue-900"
+              }`}
+            >
               تجربة المشاهدة الثلاثية الأبعاد
             </h2>
 
-            <p className="text-sm md:text-base lg:text-lg text-gray-500 leading-relaxed mb-6 md:mb-8">
+            <p
+              className={`text-sm md:text-base lg:text-lg leading-relaxed mb-6 md:mb-8 ${
+                dark ? "text-gray-300" : "text-gray-500"
+              }`}
+            >
               نقدم لك تقنية العرض المتطورة لاستكشاف تفاصيل منزلك المستقبلي قبل بنائه.
               تحكم في الإضاءة، وزع الأثاث، واختبر المساحات بدقة متناهية.
             </p>
@@ -75,7 +87,11 @@ export default function Header() {
                     3d_rotation
                   </span>
                 </div>
-                <span className="text-blue-900 font-bold text-sm md:text-base lg:text-lg">
+                <span
+                  className={`font-bold text-sm md:text-base lg:text-lg ${
+                    dark ? "text-white" : "text-blue-900"
+                  }`}
+                >
                   دوران كامل 360 درجة
                 </span>
               </div>
@@ -86,7 +102,11 @@ export default function Header() {
                     photo_camera
                   </span>
                 </div>
-                <span className="text-blue-900 font-bold text-sm md:text-base lg:text-lg">
+                <span
+                  className={`font-bold text-sm md:text-base lg:text-lg ${
+                    dark ? "text-white" : "text-blue-900"
+                  }`}
+                >
                   لقطات واقعية عالية الدقة
                 </span>
               </div>
